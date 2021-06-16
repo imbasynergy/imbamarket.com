@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-up">
+            <div class="container">
+                <div class="header-up__logo"><span>Imba</span>Market</div>
+                <div class="header-up__search">
+                    <input type="text" placeholder="Search product..." class="header-up__search_input">
+                </div>
+                <div class="header-up__panel">
+                    <div class="header-up__panel_item">
+                        <img src="images/market/icons/acc.svg" class="header-up__panel_img">
+                        <div class="header-up__panel_text">My account</div>
+                    </div>
+                    <div class="header-up__panel_item">
+                        <img src="images/market/icons/wish.svg" class="header-up__panel_img">
+                        <div class="header-up__panel_text">Wishlist</div>
+                    </div>
+                    <div class="header-up__panel_item">
+                        <img src="images/market/icons/cart.svg" class="header-up__panel_img">
+                        <div class="header-up__panel_text">Cart</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-down">
+            <div class="container">
+                <div class="header-nav">
+                    <div class="header__links">
+                        <a href="./" class="header__links_link">Home</a>
+                        <a href="./" class="header__links_link">Shop</a>
+                        <a href="./" class="header__links_link">Sample Page</a>
+                        <a href="./" class="header__links_link">Vendor Membership</a>
+                        <a href="./" class="header__links_link">Vendor Registration</a>
+                    </div>
+                    <div class="header__buy">
+                        <div class="header__buy_price">$40.28</div>
+                        <div class="header__buy_items">3 items</div>
+                        <div class="header__buy_button">Buy</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="categories">
+        <div class="container">
+            <div class="categories__all">
+                <img src="./images/market/icons/burger.svg" class="categories__all_burger">
+                <div class="categories__all_text">All categories</div>
+            </div>
+            <a href="#" class="categories__item">Health & Beauty</a>
+            <a href="#" class="categories__item">Home & Kitchen</a>
+            <a href="#" class="categories__item">Electronics</a>
+            <a href="#" class="categories__item">Pet products</a>
+            <a href="#" class="categories__item">Men's Clothing</a>
+            <a href="#" class="categories__item">Footwear</a>
+            <a href="#" class="categories__item">Accessories</a>
+        </div>
+    </div>
+    <div class="bc">
+        <div class="container">
+            <a href="./" class="bc__item">Home</a>
+            <a href="./" class="bc__item">My account</a>
+            <a href="./" class="bc__item">Dashboard</a>
+        </div>
+    </div>
+    <section class="account">
+        <div class="container">
+            <div class="account__head">
+                <div class="account__head_title">Order</div>
+            </div>
+            <div class="account__order">
+                <div class="account__column">
+                    <div class="account__column_title">Billing details</div>
+                    <div class="account__form">
+                        <div class="setup__input">
+                            <div class="account__form_split">
+                                <div class="account__form_split-1">
+                                    <div class="setup__input_hl">First name</div>
+                                    <input type="text" class="account__form_input setup__input_item order__input_size-small">
+                                </div>
+                                <div class="account__form_split-1">
+                                    <div class="setup__input_hl">Last name</div>
+                                    <input type="text" class="account__form_input setup__input_item order__input_size-small">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setup__input">
+                            <div class="setup__input_hl">Company name (optional)</div>
+                            <input type="text" placeholder="House number and street name" class="setup__input_item order__input_size">
+                        </div>
+                        <div class="setup__input">
+                            <div class="setup__input_hl">Country region</div>
+                                <ul class="setup__input_select">
+                                    <li class="setup__input_option order__input_size" sVal="PayPal">Australia</li>
+                                    <li class="setup__input_option order__input_size" sVal="Card">123</li>
+                                    <li class="setup__input_option order__input_size" sVal="QW">123</li>
+                                    <li class="setup__input_option order__input_size" sVal="Other">321</li>
+                                </ul>
+                            </div>
+                        <div class="setup__input">
+                            <div class="setup__input_hl">Street address</div>
+                            <input type="text" placeholder="House number and street name" class="setup__input_item order__input_size">
+                            <input type="text" placeholder="Apartment, suite, unit, etc. (optional)" class="setup__input_item order__input_size">
+                        </div>
+                    </div>
+                    <div class="setup__input">
+                        <div class="setup__input_hl">Suburb*</div>
+                        <input type="text" placeholder="House number and street name" class="setup__input_item order__input_size">
+                    </div>
+                    <div class="setup__input">
+                        <div class="setup__input_hl">State</div>
+                        <ul class="setup__input_select">
+                            <li class="setup__input_option order__input_size" sVal="PayPal">Tasmania</li>
+                            <li class="setup__input_option order__input_size" sVal="Card">123</li>
+                            <li class="setup__input_option order__input_size" sVal="QW">123</li>
+                            <li class="setup__input_option order__input_size" sVal="Other">321</li>
+                        </ul>
+                    </div>
+                    <div class="setup__input">
+                        <div class="setup__input_hl">Postcode</div>
+                        <input type="text" class="setup__input_item order__input_size">
+                    </div>
+                    <div class="setup__input">
+                        <div class="setup__input_hl">Phone</div>
+                        <input type="text" class="setup__input_item order__input_size">
+                    </div>
+                    <div class="setup__input">
+                        <div class="setup__input_hl">Email address</div>
+                        <input type="text" value="alma.lawson@example.com" class="setup__input_item order__input_size">
+                    </div>
+                    <div class="account__column_title">Adittional information</div>
+                    <div class="setup__input">
+                        <div class="setup__input_hl">Order notes (optional)</div>
+                        <textarea placeholder="Notes about your order, special notes for delivery." class="setup__input_item setup__input_item-textarea order__input_size"></textarea>
+                    </div>
+                </div>
+                <div class="account__column">
+                    <div class="account__order_items">
+                        <div class="account__order_item">
+                            <img src="./images/cart/kn.jpg" alt="" class="account__order_img">
+                            <div class="account__order_about">
+                                <div class="account__order_title">Sneakers Women Spring Sport Shoes Breathable Running</div>
+                                <div class="account__order_f">Color black, size 4, 1 pc.</div>
+                            </div>
+                            <div class="account__order_actions">
+                                <div class="account__order_price">$16.44</div>
+                                <div class="account__order_delete">Delete</div>
+                            </div>
+                        </div>
+                        <div class="account__order_item">
+                            <img src="./images/cart/kn.jpg" alt="" class="account__order_img">
+                            <div class="account__order_about">
+                                <div class="account__order_title">Sneakers Women Spring Sport Shoes Breathable Running</div>
+                                <div class="account__order_f">Color black, size 4, 1 pc.</div>
+                            </div>
+                            <div class="account__order_actions">
+                                <div class="account__order_price">$16.44</div>
+                                <div class="account__order_delete">Delete</div>
+                            </div>
+                        </div>
+                        <div class="account__order_item">
+                            <img src="./images/cart/kn.jpg" alt="" class="account__order_img">
+                            <div class="account__order_about">
+                                <div class="account__order_title">Sneakers Women Spring Sport Shoes Breathable Running</div>
+                                <div class="account__order_f">Color black, size 4, 1 pc.</div>
+                            </div>
+                            <div class="account__order_actions">
+                                <div class="account__order_price">$16.44</div>
+                                <div class="account__order_delete">Delete</div>
+                            </div>
+                        </div>
+                        <div class="account__order_total">
+                            <div class="account__order_total-title">Total:</div>
+                            <div class="account__order_total-price">$31.48</div>
+                        </div>
+                        <div class="account__order_button button button_purple buttom_small">PLACE ORDER</div>
+                        <div class="account__order_privacy">
+                            Your personal data will be used to process your order,
+                            support your expiriance troughout this website, and for
+                            other purposes described in our <a href="./">privacy policy.</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__column footer__column_custom">
+                <div class="footer__logo header-up__logo"><span>Imba</span>Market</div>
+                <div class="footer__contacts">
+                    <div class="footer__contacts_item">
+                        <img src="./images/market/icons/mail.svg" class="footer__contacts_item-icon">
+                        <a href="mailto:imba@imbamarket.com" class="footer__contacts_item-info">imba@imbamarket.com</a>
+                    </div>
+                    <div class="footer__contacts_item">
+                        <img src="./images/market/icons/tg.svg" class="footer__contacts_item-icon">
+                        <a href="./" class="footer__contacts_item-info">telegram @imba_market </a>
+                    </div>
+                    <div class="footer__contacts_item">
+                        <img src="./images/market/icons/phone.svg" class="footer__contacts_item-icon">
+                        <a href="tel:+61416103106" class="footer__contacts_item-info">+ 61 416 103 106</a>
+                    </div>
+                </div>
+                <div class="footer__copy">© 2021 ImbaMarket. All rights reserved.</div>
+            </div>
+            <div class="footer-nav">
+                <div class="footer__column">
+                    <div class="footer__categories">Shop</div>
+                    <a href="" class="footer__categories_item">Home</a>
+                    <a href="" class="footer__categories_item">Categories</a>
+                    <a href="" class="footer__categories_item">Top deals</a>
+                    <a href="" class="footer__categories_item">Newest</a>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__categories">Details</div>
+                    <a href="" class="footer__categories_item">Sample page</a>
+                    <a href="" class="footer__categories_item">Vendor Membership</a>
+                    <a href="" class="footer__categories_item">Vendor Registration</a>
+                    <a href="" class="footer__categories_item">Delivery</a>
+                </div>
+                <div class="footer__column">
+                    <div class="footer__categories">Account</div>
+                    <a href="" class="footer__categories_item">My account</a>
+                    <a href="" class="footer__categories_item">Cart</a>
+                    <a href="" class="footer__categories_item">Wishlist</a>
+                </div>
+            </div>
+            <div class="footer__column footer__column_custom">
+                <div class="footer__support">
+                    <div class="footer__support_text">We are ready to support <br> each customer</div>
+                    <div class="footer__support_btn">support</div>
+                </div>
+            </div>
+            <div class="footer__column footer__column_custom footer__column-mobile">
+                <div class="footer__logo header-up__logo"><span>Imba</span>Market</div>
+                <div class="footer__contacts">
+                    <div class="footer__contacts_item">
+                        <img src="./images/market/icons/mail.svg" class="footer__contacts_item-icon">
+                        <a href="mailto:imba@imbamarket.com" class="footer__contacts_item-info">imba@imbamarket.com</a>
+                    </div>
+                    <div class="footer__contacts_item">
+                        <img src="./images/market/icons/tg.svg" class="footer__contacts_item-icon">
+                        <a href="./" class="footer__contacts_item-info">telegram @imba_market </a>
+                    </div>
+                    <div class="footer__contacts_item">
+                        <img src="./images/market/icons/phone.svg" class="footer__contacts_item-icon">
+                        <a href="tel:+61416103106" class="footer__contacts_item-info">+ 61 416 103 106</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
